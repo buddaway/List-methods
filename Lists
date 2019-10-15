@@ -1,0 +1,15 @@
+greetings = ['hello', 'hi', 'howdy', 'sup'] #how lists are written, make sure to use square brackets
+greetings.index('hello')#gives the place in the list where the 'hello' greeting is. Starting at 0
+spam = ['dog', 'cat', 'bat']
+spam.append('moose')#append adds the item to the list.
+spam.insert[1,'donkey']#inserts donkey in the 1st position
+spam.remove('bat')#removes the first bat list item, different to 'del' as it allows you to name the item, rather than it's position. 
+
+spam = (1, 7, 2, 8, -7)
+spam.sort()#sorts list items, can also be used alphabetically. 
+spam.sort(reverse=True)#sorts items in reverse order. 
+spam.sort(key=str.lower)#allows items that are both upper and lower case to be sorted properly. 
+
+
+
+
